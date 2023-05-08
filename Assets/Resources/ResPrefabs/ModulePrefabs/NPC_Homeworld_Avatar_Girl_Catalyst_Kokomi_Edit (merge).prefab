@@ -286,6 +286,7 @@ MonoBehaviour:
     connectionMode: 0
     rotationalInterpolation: 0.5
     rootRotation: 0.5
+    updateMode: 0
     animationPoseRatio: 0
     reductionSetting:
       simpleDistance: 0
@@ -303,6 +304,7 @@ MonoBehaviour:
       y: -1
       z: 0
     gravityFalloff: 0
+    stablizationTimeAfterReset: 0.1
     damping:
       value: 0.1
       useCurve: 0
@@ -722,6 +724,7 @@ MonoBehaviour:
     connectionMode: 0
     rotationalInterpolation: 0.5
     rootRotation: 0.5
+    updateMode: 0
     animationPoseRatio: 0
     reductionSetting:
       simpleDistance: 0
@@ -739,6 +742,7 @@ MonoBehaviour:
       y: -1
       z: 0
     gravityFalloff: 1
+    stablizationTimeAfterReset: 0.1
     damping:
       value: 0.1
       useCurve: 0
@@ -2470,6 +2474,7 @@ MonoBehaviour:
     connectionMode: 0
     rotationalInterpolation: 0.5
     rootRotation: 0.5
+    updateMode: 0
     animationPoseRatio: 0
     reductionSetting:
       simpleDistance: 0
@@ -2487,6 +2492,7 @@ MonoBehaviour:
       y: -1
       z: 0
     gravityFalloff: 0
+    stablizationTimeAfterReset: 0.1
     damping:
       value: 0.05
       useCurve: 0
@@ -3779,16 +3785,14 @@ GameObject:
   - component: {fileID: 1781410538110094063}
   - component: {fileID: 1541988404940069915}
   - component: {fileID: 610651985013251482}
-  - component: {fileID: 840572855754246406}
   - component: {fileID: 4170971822057013113}
-  - component: {fileID: 6737127153635027015}
   m_Layer: 6
   m_Name: NPC_Homeworld_Avatar_Girl_Catalyst_Kokomi_Edit (merge)
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1781410538110094063
 Transform:
   m_ObjectHideFlags: 0
@@ -3808,7 +3812,7 @@ Transform:
   - {fileID: 6514965524326279384}
   - {fileID: 5255684741984383552}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1541988404940069915
 Animator:
@@ -3858,19 +3862,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
---- !u!114 &840572855754246406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3132220024657116944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e18d6d1b5adc4d24f9a7a19b9ee4a462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLocalPlayer: 1
 --- !u!114 &4170971822057013113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4043,19 +4034,6 @@ MonoBehaviour:
   - {fileID: 1644060752906412642}
   - {fileID: 7196192877481698654}
   - {fileID: 986074193630625775}
---- !u!114 &6737127153635027015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3132220024657116944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4333728ea1b69e0468101e0dae4ae6a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLocalPlayer: 1
 --- !u!1 &3153497300167571788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,6 +4248,7 @@ MonoBehaviour:
     connectionMode: 0
     rotationalInterpolation: 0.5
     rootRotation: 0.5
+    updateMode: 0
     animationPoseRatio: 0
     reductionSetting:
       simpleDistance: 0
@@ -4287,6 +4266,7 @@ MonoBehaviour:
       y: -1
       z: 0
     gravityFalloff: 0
+    stablizationTimeAfterReset: 0.1
     damping:
       value: 0.1
       useCurve: 0
@@ -5703,6 +5683,7 @@ MonoBehaviour:
     connectionMode: 0
     rotationalInterpolation: 0.5
     rootRotation: 0.5
+    updateMode: 0
     animationPoseRatio: 0
     reductionSetting:
       simpleDistance: 0
@@ -5720,6 +5701,7 @@ MonoBehaviour:
       y: -1
       z: 0
     gravityFalloff: 0
+    stablizationTimeAfterReset: 0.1
     damping:
       value: 0.1
       useCurve: 0
